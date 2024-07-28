@@ -1,4 +1,45 @@
-# Python
+# Python 相關
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+venv/
+env/
+ENV/
+
+# IDE 相關
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系統相關
+.DS_Store
+Thumbs.db
+
+# 日誌文件
+*.log
+
+# 數據庫文件
+*.db
+*.sqlite3
+
+# 模型文件（如果很大的話）
+*.model
+*.joblib
+
+# 個人配置文件
+config.ini
+.env
+
+# 輸出文件
+output/
+results/
+
+# 暫時文件
+temp/
+tmp/# Python
 __pycache__/
 *.pyc
 *.pyo
